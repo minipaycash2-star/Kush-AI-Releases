@@ -1,0 +1,29 @@
+# Signing keys and protected backups
+*.dpapi
+*.key
+*.pem
+*.pfx
+*.p12
+*.pvk
+*private-key*
+*private_key*
+*manifest-private*
+*signing*backup*
+
+# Build and publish output
+/bin/
+/obj/
+/artifacts/
+/Output/
+/publish/
+
+# Release assets belong on GitHub Releases, not in normal Git commits
+*.exe
+*.msi
+*.msix
+*.appx
+KushAI_UpdateManifest.sig
+
+# Temporary files
+*.tmp
+*.log
